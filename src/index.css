@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(187, 187, 187);
+}
+
+span {
+  padding: 5px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: white;
+}
+
+
+
+h1 {
+  color: rgb(3, 31, 16);
+}
+
+a{
+  color: white !important;
+  &:hover{
+    color: greenyellow !important;
+  }
+}
+
+.name {
+  margin-right: 50px;
+}
+
