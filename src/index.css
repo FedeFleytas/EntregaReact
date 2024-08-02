@@ -32,6 +32,8 @@ a{
   color: greenyellow !important;
 }
 
+
+
 .name {
   margin-right: 50px;
 }
@@ -48,6 +50,10 @@ a{
   justify-content: center;
   align-content: center;
   height: 300px;
+  &:hover {
+    transform: scale(1.1);
+    transition: 1.5s;
+  }
 }
 
 .conter {
@@ -59,6 +65,7 @@ a{
 
 .price {
   font-size: 20px;
+  font-weight: 500;
 }
 
 .contbutton {
@@ -71,6 +78,10 @@ a{
 .linkbutton {
   text-align: center;
   width: 100px;
+}
+
+.wtout {
+  color: rgb(255, 255, 255);
 }
 
 .buttonl {
@@ -123,8 +134,8 @@ a{
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  border-left: 1px solid #00A676;
-  border-right: 1px solid #00A676;
+  border-left: 1px solid greenyellow;
+  border-right: 1px solid greenyellow;
   height: 600px;
 }
 .tittledetail {
@@ -149,7 +160,7 @@ color: greenyellow;
 
 .contdetail {
   color: whitesmoke;
-  height: 100px;
+  height: 150px;
 
 }
 

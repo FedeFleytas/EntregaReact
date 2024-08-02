@@ -13,12 +13,12 @@ export const ItemListContainer = () => {
 
     if (loading) return <Container className='cont'><img src="../../src/assets/loading.png" alt="" className='loading'/></Container>;
     if (items.length === 0 )
-        return <Container className='mt-4'><div className='wtout'>No hay productos</div></Container>;
+        return <Container className='mt-4 wtout'>No se encontraron productos</Container>;
 
 
     return(
         <Container className='mt-4'>
-            <h1 className='prodc'>Productos:</h1>
+            <h1 className='prodc'>Productos</h1>
             <Container className='mt-4 row conter'>
                 {items.map((i) => (
                     <Card key={i.id} style={{ width: '18rem' }} className='col-sm-6 m-2'>
