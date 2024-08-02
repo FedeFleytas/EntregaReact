@@ -18,15 +18,21 @@ export const ItemDetailContainer = () => {
     return (
 
         <Container className='mt-4'>
-            <h1>Producto</h1>
+            <h1 className='tittledetail'>{item.category}</h1>
 
-            <Container className='mt-4 col-sm'>
-                <img src="{item.img}" alt="" />
-            </Container>
-            <Container className='mt-4 col-sm'>
-                    <h2>{item.name}</h2>
-                    <p>{item.detail}</p>
+            <Container className=' mt-4 containerdetail row'>
+
+                <Container className='imgdetail col-sm-6'>
+                    <img src={item.imgurl} alt="" height={500}/>
                 </Container>
+
+                <Container className='contdetail col-sm-6'>
+                        <h2>{item.name}</h2>
+                        <p>{item.detail}</p>
+                </Container>
+
+            </Container>
+
         </Container>
     )
 }

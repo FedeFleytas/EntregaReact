@@ -1,108 +1,108 @@
 [
         {
             "id": 1,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "Procesador AMD Ryzen 3 3200g",
             "price": 167821,
             "imgurl": "https://mexx-img-2019.s3.amazonaws.com/36216_2.jpeg",
-            "category": "Procesador"
+            "category": "Procesadores"
         },
 
         {
             "id": 2,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "GeForce RTX 4060 Ti 8Gb Msi Ventus 3X Oc",
             "price": 760569,
             "imgurl": "https://drive.google.com/file/d/1YOWyf3pha9dqevj3ZcybSIqZA23qA_Hc/view?",
-            "category": "Video"
+            "category": "Placas de video"
         },
 
         {
             "id": 3,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "Asrock AMD Radeon RX 550 2gb",
             "price": 157395,
             "imgurl": "https://drive.google.com/file/d/1ovzfJS_eLhFHidjIef8ocsOkduDrsUjd/view?",
-            "category": "Video"
+            "category": "Placas de video"
         },
 
         {
             "id": 4,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "Procesador Intel Core i7 13700f",
             "price": 749000,
             "imgurl": "https://drive.google.com/file/d/11w6xwD6ojW-z0EIYfmghCdurAVOG0tCE/view",
-            "category": "Procesador"
+            "category": "Procesadores"
         },
 
         {
             "id": 5,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "Procesador intel core i9 14900k",
             "price": 1848500,
             "imgurl": "https://drive.google.com/file/d/1CsvlALBrxh_v7wm_9EEtQN8SqmALUpLF/view?usp=sharing",
-            "category": "Procesador"
+            "category": "Procesadores"
         },
 
         {
             "id": 6,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "PNY Geforce RTX 4070 12gb",
             "price": 1658586,
             "imgurl": "https://drive.google.com/file/d/12VkvoEkQ9lXTfARVicZbY6ncn--hkuQ3/view?usp=sharing",
-            "category": "Video"
+            "category": "Placas de video"
         },
         {
             "id": 7,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "Procesador AMD Ryzen 3 3200g",
             "price": 167821,
             "imgurl": "https://mexx-img-2019.s3.amazonaws.com/36216_2.jpeg",
-            "category": "Procesador"
+            "category": "Procesadores"
         },
 
         {
             "id": 8,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "GeForce RTX 4060 Ti 8Gb Msi Ventus 3X Oc",
             "price": 760569,
             "imgurl": "https://drive.google.com/file/d/1YOWyf3pha9dqevj3ZcybSIqZA23qA_Hc/view?usp=sharing",
-            "category": "Video"
+            "category": "Placas de video"
         },
 
         {
             "id": 9,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "Asrock AMD Radeon RX 550 2gb",
             "price": 157395,
             "imgurl": "https://drive.google.com/file/d/1ovzfJS_eLhFHidjIef8ocsOkduDrsUjd/view?usp=sharing",
-            "category": "Video"
+            "category": "Placas de video"
         },
 
         {
             "id": 10,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "Procesador Intel Core i7 13700f",
             "price": 749000,
             "imgurl": "https://drive.google.com/file/d/11w6xwD6ojW-z0EIYfmghCdurAVOG0tCE/view?usp=sharing",
-            "category": "Procesador"
+            "category": "Procesadores"
         },
 
         {
             "id": 11,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "Procesador intel core i9 14900k",
             "price": 1848500,
             "imgurl": "https://drive.google.com/file/d/1CsvlALBrxh_v7wm_9EEtQN8SqmALUpLF/view?usp=sharing",
-            "category": "Procesador"
+            "category": "Procesadores"
         },
 
         {
             "id": 12,
-            "detail": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dicta ipsam maiores porro. Soluta numquam et tenetur amet quod, accusantium, iste exercitationem quos velit consectetur non explicabo eum quaerat quae!Deserunt consequatur molestiae illum laborum consectetur laudantium neque ipsam! Facere recusandae, ipsa labore perferendis fugit vitae odit! Deleniti, praesentium similique harum amet magnam facilis, at laudantium et ad, aut neque.",
             "name": "PNY Geforce RTX 4070 12gb",
             "price": 1658586,
             "imgurl": "https://drive.google.com/file/d/12VkvoEkQ9lXTfARVicZbY6ncn--hkuQ3/view?usp=sharing",
-            "category": "Video"
+            "category": "Placas de video"
         }
 ]
