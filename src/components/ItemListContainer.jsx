@@ -1,19 +1,41 @@
-import { useList } from '../hooks/useList';
-import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+
 
 import Container from 'react-bootstrap/Container';
-import data from "../data/products.json"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+
+import { getFirestore, getDocs, where, query, collection } from 'firebase/firestore';
+
+
 export const ItemListContainer = () => {
-    
-    const { items, loading } = useList (data);
+
+    const [items, setItems] = useState([]);
+    const [loading, setLoading] = useState([true]);
+
+    const { id } = useParams();
+
+    useEffect (() => {
+
+        const db= getFirestore()
+
+        const refCollection = !id ? collection(db, "items") : query( collection(db, "items"), where("category", "==", id)); 
+
+        getDocs(refCollection)
+            .then((snapshot) => {
+                setItems(
+                    snapshot.docs.map((doc) => {
+                        return { id: doc.id, ...doc.data()};
+                    })
+                );
+            })
+            .finally(() => setLoading(false));
+    }, [id]);
 
 
     if (loading) return <Container className='cont'><img src="../../src/assets/loading.png" alt="" className='loading'/></Container>;
-    if (items.length === 0 )
-        return <Container className='mt-4 wtout'>No se encontraron productos</Container>;
 
 
     return(
@@ -26,8 +48,7 @@ export const ItemListContainer = () => {
                         <Card.Body className='cards'>
                             <Card.Title>{i.name}</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                                {i.detail}
                             </Card.Text>
                             <Card.Text className='price'>
                                 ${i.price}
