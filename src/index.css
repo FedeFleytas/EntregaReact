@@ -16,13 +16,9 @@ span {
   color: white;
 }
 
-
-h1 {
-  color: rgb(3, 31, 16);
-}
-
 a{
   color: white !important;
+  text-decoration: none;
   &:hover{
     color: greenyellow !important;
   }
@@ -42,6 +38,29 @@ a{
   text-align: center;
   color: aliceblue;
 
+}
+
+
+.cartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prodtotal {
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.withoutProd {
+  color: whitesmoke;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 200px;
 }
 
 .cardimg {
@@ -157,7 +176,7 @@ a{
   border-left: 1px solid greenyellow;
   border-right: 1px solid greenyellow;
   height: 600px;
-  margin-top: 120px;
+  margin-top: 60px;
 }
 .tittledetail {
 color: greenyellow;
@@ -187,4 +206,230 @@ color: greenyellow;
 
 .contdetail h2 {
   height: 50%;
+}
+
+
+.countContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.handleButton {
+  color: black;
+  background-color: greenyellow;
+  border: 1px solid black;
+  &:hover{
+    color: whitesmoke;
+    background-color: black;
+    border: 1px solid greenyellow;
+  }
+}
+
+.separate {
+
+}
+
+.addCart {
+  color: black;
+  width: 200px;
+  background-color: greenyellow;
+  border: 1px solid black;
+  &:hover{
+    color: whitesmoke;
+    background-color: black;
+    border: 1px solid greenyellow;
+  }
+}
+
+
+/*  Cart style  */
+
+.containerCart {
+  margin-top: 40px;
+
+}
+
+.cartTittleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.cartTittle {
+  color: greenyellow;
+}
+
+.infoContainer {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: 
+  "img name delete"
+  "img price quantity"
+  "separate separate separate";
+}
+
+.prodImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: img;
+  height: 200px;
+  width: 200px;
+}
+
+.prodinfoname {
+  color: whitesmoke;
+  grid-area: name;
+  width: 700px;
+  font-size: 25px;
+}
+
+.prodinfoprice {
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  grid-area: price;
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+.prodinfoquantity {
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  text-align: right;
+  grid-area: quantity;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.delete {
+  text-align: right;
+  grid-area: delete;
+  color: greenyellow;
+  flex-shrink: 1;
+  cursor: pointer;
+}
+
+.separate {
+  grid-area: separate;
+  color: greenyellow;
+}
+
+.buttonsContainer {
+  display: grid;
+  grid-template-areas: 
+  "total total"
+  "sepa sepa"
+  "buttons buttons";
+}
+
+.total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-area: total;
+  color: whitesmoke;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.separates {
+  grid-area: sepa;
+  color: greenyellow;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-area: buttons;
+  margin-bottom: 30px;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-area: empty;
+  height: 38px;
+  width: 150px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-color: white;
+  &:hover{
+    background-color: rgb(44, 44, 44);
+    color: greenyellow;
+    border-color: greenyellow;
+  }
+}
+
+.finish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0;
+  grid-area: finish;
+  height: 38px;
+  width: 150px;
+  background-color: greenyellow;
+  border-color: rgb(255, 255, 255);
+  color: black;
+  &:hover{
+    color: whitesmoke;
+    background-color: black;
+    border-color: greenyellow;
+  }
+}
+
+
+/*    Checkout style    */
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgb(210, 210, 210);
+  border: 3px solid greenyellow;
+  height: 500px;
+  width: 500px;
+}
+
+.tittleForm {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.labelContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  color: black;
+}
+
+.inputZone {
+  width: 400px;
+  background-color: rgb(49, 49, 49);
+  color: whitesmoke;
+}
+
+.finishForm {
+  margin-top: 20px;
+  background-color: rgb(129, 197, 28);
+  border-color: rgb(0, 0, 0);
 }

@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import { getFirestore, getDoc, doc } from 'firebase/firestore';
 
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 
 import { ItemContext } from "../context/ItemContext";
 import { ItemCount } from "./ItemCount"

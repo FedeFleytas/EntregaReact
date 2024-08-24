@@ -9,27 +9,42 @@ import { ItemContext } from '../context/ItemContext';
 export const Cart = () => {
     const { reset, removeItem, items} = useContext(ItemContext);
 
-    const total = items.reduce((acc, act) => acc + act.price * act.quantity, 0);
+    const total = items.reduce((acc, item) => acc + item.price * item.quantity, 0);
+    
 
-    if (!items.length) return "No hay productos en el carrito";
+    if (!items.length) return (
+        <div className='zeroContainer'>
+            <p className='withoutProd'>No hay productos en el carrito</p>
+        </div>
+    )
 
     return (
-        <Container>
-            {items.map((i) => {
+        <Container className='containerCart'>
+            <div className='cartTittleContainer'>
+                <h1 className='cartTittle'>Carrito</h1>
+            </div>
+            {items?.map((i) => {
                 return (
                     <div key={i.id}>
-                    <img src={i.imgurl} alt="" width={200} />
-                    <h1>{i.name}</h1>
-                    <h2>{i.price}</h2>
-                    <p>{i.quantity}</p>
-                    <span onClick={() => removeItem(i.id)}>X</span>
+                        <div className='infoContainer'>
+                            <img src={i.imgurl} alt="" className='prodImg'/>
+                            <h2 className='prodinfoname'>{i.name}</h2>
+                            <h3 className='prodinfoprice'>${i.price}</h3>
+                            <p className='prodinfoquantity'>Cantidad: {i.quantity}</p>
+                            <p onClick={() => items?.length && removeItem(i.id)} className='delete'>X</p>
+                            <hr  className='separate'/>
+                        </div>
                     </div>
                 )
             })}
-            <p>{total}</p>
-            <button onClick={reset}>Vaciar Carrito</button>
-            <hr />
-            <Link to= {`/Checkout`} className='linkbutton'><Button className='' variant="primary">Finalizar Compra</Button></Link>
+            <div className='buttonsContainer'>
+                <p className='total'>Total: ${total}</p>
+                <hr  className='separates'/>
+                <div className='buttons'>
+                    <button onClick={reset} className='empty linkbutton' variant="primary">Vaciar Carrito</button>
+                    <Link to= {`/Checkout`} className='linkbutton'><Button className='finish' variant="primary">Finalizar Compra</Button></Link>
+                </div>
+            </div>
         </Container>
     )
 };
