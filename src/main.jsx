@@ -7,12 +7,12 @@ import { initializeApp } from 'firebase/app';
 
 
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_apiKey,
-    authDomain: import.meta.env.VITE_authDomain,
-    projectId: import.meta.env.VITE_projectId,
-    storageBucket: import.meta.env.VITE_storageBucket,
-    messagingSenderId: import.meta.env.VITE_messagingSenderId,
-    appId: import.meta.env.VITE_appId
+    apiKey: "AIzaSyA1Totc6jDPmFKy5eF1YpH1SoPtyfrEFOc",
+    authDomain: "entrega-react-twof.firebaseapp.com",
+    projectId: "entrega-react-twof",
+    storageBucket: "entrega-react-twof.appspot.com",
+    messagingSenderId: "558701223850",
+    appId: "1:558701223850:web:1cb658f8d6756be67695d3",
 };
 
 
