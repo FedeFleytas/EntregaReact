@@ -36,7 +36,7 @@ export const ItemDetailContainer = () => {
         .finally(() => setLoading(false));
     }, [id]);
 
-    if (loading) return <Container className='cont'><img src="../../src/assets/loading.png" alt="" className='loading'/></Container>;
+    if (loading) return <Container className='cont'><img src="../src/assets/loading.png" alt="" className='loading'/></Container>;
     if (item.length === 0 )
         return <Container className='mt-4 wtout'>No existe detalles de este producto</Container>;
 

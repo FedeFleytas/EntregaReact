@@ -35,7 +35,7 @@ export const ItemListContainer = () => {
     }, [id]);
 
 
-    if (loading) return <Container className='cont'><img src="../../src/assets/loading.png" alt="" className='loading'/></Container>;
+    if (loading) return <Container className='cont'><img src="../src/assets/loading.png" alt="" className='loading'/></Container>;
 
 
     return(
